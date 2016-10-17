@@ -1,0 +1,71 @@
+.up_right
+{
+	text-align :right;
+}
+.center {
+	text-align :center;
+}
+.bottom_left {
+	text-align :left;
+}
+.whitesmoke {
+	background-color: whitesmoke;
+}
+.white {
+	border : 1px white;
+}
+.yellow {
+	background-color: yellow;
+}
+.lightcyan {
+	background-color: lightcyan;
+}
+.powderblue {
+	background-color: powderblue;
+}
+.lightblue {
+	background-color: lightblue;
+}
+.grey {
+	background-color: lightgrey;
+}
+.pink {
+	background-color: pink;
+}
+.skyblue {
+	background-color: skyblue;
+}
+.darkseagreen {
+	background-color: darkseagreen;
+}
+.lightgreen {
+	background-color: lightgreen;
+}
+.textgrey {
+	color: grey; 
+}
+img {
+	height: 40%;
+	width: 40%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+H1 {
+	text-align: center;
+	font-size: 3vw;
+}
+#table
+{
+	margin: auto;
+	max-height: 50%;
+	max-width: 100%;
+}
+td {
+	max-height: 0.5%;
+	width: 1%;
+	border: 1px solid black;
+}
+p{
+	font-size: 1vw;
+}

@@ -1,0 +1,172 @@
+body {
+	background-color: #505050;
+}
+p
+{
+	margin-left: 10px;
+}
+#title_div {
+	background-color: #909090;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1450px;
+	height: 140px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px black;
+}
+#title
+{
+	margin-top: 10px;
+	margin-left: 10px;
+	max-width: 750px;
+	max-height: 110px;
+}
+#close
+{
+	position: absolute;
+	margin-left: 1420px;
+	margin-top: -15px;
+	height: 20px;
+	width: 20px;
+}
+#head_button
+{
+	margin-top: -40px;
+}
+#reload
+{
+	position: absolute;
+	margin-left: 1420px;
+	margin-top: -120px;
+	height: 20px;
+	width: 20px;
+}
+#loupe
+{
+	position: relative;
+	height: 150px;
+	margin-left: 1150px;
+	margin-top: -110px;
+}
+#eye
+{
+	border: 5px solid red;
+	border-radius: 5px;
+}
+#middle_div
+{
+	width: 1450px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#text_shadow
+{
+	text-shadow: 5px 5px 5px red;
+}
+#left_button
+{
+	background-color: #909090;
+	height: 450px;
+	width: 140px;
+	border-radius: 10px;
+	margin-left: 30px;
+	box-shadow: 10px 10px 10px black;
+}
+#right_button
+{
+	background-color: #909090;
+	height: 450px;
+	width: 140px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px black;
+}
+#center_div
+{
+	background-color: #909090;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px black;
+}
+#cluster
+{
+	margin: 10px;
+}
+#arrow
+{
+	margin-top: 15px;	
+}
+#input
+{
+	position: absolute;
+	margin-left: 20px;
+	width: 380px;
+	margin-top: -10px;
+}
+#repondre
+{
+	width: 80px;
+	position: absolute;
+	margin-left: 420px;
+	margin-top: -10px;
+}
+#book
+{
+	height: 100px;
+	width: 70px;
+	margin-top: 15px;	
+	margin-left: 35px;
+}
+#towel
+{
+	height: 60px;
+	width: 80px;
+	margin-top: 15px;	
+	margin-left: 30px;
+}
+#brick
+{
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 120px;
+	height: 80px; 
+	background-image :url("resources/brick.jpg");
+}
+#ikea
+{
+	position: absolute;
+	width: 100px;
+	height: 200px;
+	margin-left: 350px;
+	margin-top: -250px;
+}
+#apple
+{
+	position: absolute;
+	width: 200px;
+	height: 100px;
+	margin-left: 800px;
+	margin-top: -250px;
+}
+#green_div
+{
+	position: absolute;
+	margin-left: -50px;
+	margin-top: 550px;
+	height: 170px;
+	width: 530px;
+	background-color: #88ff89;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px black;
+}
+.button
+{
+	height: 80px;
+	width: 80px;
+	margin-left: 30px;
+}
+.inline_block
+{
+	margin-top: 20px;
+	margin-left: 25px;
+	vertical-align: top;
+	display: inline-block;
+}
