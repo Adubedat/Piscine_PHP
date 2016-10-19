@@ -1,5 +1,6 @@
 <?php
-
+ini_set('display_errors','on');
+error_reporting(E_ALL);
 include_once('Lannister.class.php');
 include_once('Jaime.class.php');
 include_once('Tyrion.class.php');
