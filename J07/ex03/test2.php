@@ -12,4 +12,3 @@ $house = new DrHouse();
 $house->introduce();
 
 ?>
-
