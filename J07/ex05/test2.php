@@ -1,5 +1,6 @@
 <?php
-
+ini_set('display_errors','on');
+error_reporting(E_ALL);
 include_once('IFighter.class.php');
 include_once('NightsWatch.class.php');
 
@@ -17,4 +18,3 @@ $nw->recruit($varys);
 $nw->fight();
 
 ?>
-
