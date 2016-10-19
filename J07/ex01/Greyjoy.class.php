@@ -2,10 +2,7 @@
 
 class Greyjoy
 {
-  function familyMotto()
-  {
-    return "We do not sow";
-  }
+  protected $familyMotto = "We do not sow";
 }
 
 ?>
