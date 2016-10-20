@@ -1,5 +1,6 @@
 <?php
-
+ini_set('display_errors','on');
+error_reporting(E_ALL);
 include_once('UnholyFactory.class.php');
 include_once('Fighter.class.php');
 
