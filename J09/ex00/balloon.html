@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Javascript</title>
+  </head>
+  <body>
+    <div id="balloon"></div>
+    <script>
+    var ballon = document.getElementById('balloon');
+    var width = 200;
+    var height = 200;
+    var list =["red", "green", "blue"];
+    var i = 0;
+    function newBallon(color, wid, hei)
+    {
+      ballon.style.backgroundColor = list[i % 3];
+      ballon.style.width = width + "px";
+      ballon.style.height = height + "px";
+      ballon.style.borderRadius =  width/2 +  "px";
+    }
+    ballon.onclick = function() {
+      i++;
+      width += 10;
+      height += 10;
+      if (width > 420)
+      {
+        width = 200;
+        height = 200;
+      }
+      newBallon(list[i % 3], width, height);
+    }
+    ballon.onmouseout = function () {
+      i--;
+      if (i < 0)
+        i += 3;
+      if (width > 200) {
+        width -= 5;
+        height -= 5;
+      }
+      newBallon(list[i % 3], width, height);
+    }
+    ballon.style.backgroundColor = list[i];
+    ballon.style.width = width + "px";
+    ballon.style.height = height + "px";
+    ballon.style.borderRadius =  width/2 +  "px";
+    </script>
+  </body>
+</html>
